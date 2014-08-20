@@ -1,0 +1,6 @@
+include LICENSE
+include *requirements.txt
+graft doc
+graft tests
+global-exclude __pycache__
+global-exclude *.pyc
