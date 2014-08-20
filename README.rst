@@ -4,7 +4,7 @@ Sprockets Package Template
 This is a cookiecutter_ template that generates a sprockets package that
 is consistent with the rest of the eco-system and ready to go in a few
 seconds.  You will need to install the cookiecutter_ utility, then point
-it at this repository, answer a few questions, and start coding.
+it at this repository, answer a few questions, and start coding::
 
    $ cookiecutter https://github.com/sprockets/cookiecutter-sprockets
    project_name (default is "")? packagename
