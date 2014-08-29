@@ -6,7 +6,7 @@ sprockets.{{ cookiecutter.project_name }}
 
 Installation
 ------------
-sprockets.{{ cookiecutter.project_name }} is available on the
+``sprockets.{{ cookiecutter.project_name }}`` is available on the
 `Python Package Index <https://pypi.python.org/pypi/sprockets.{{ cookiecutter.project_name }}>`_
 and can be installed via ``pip`` or ``easy_install``:
 
@@ -14,29 +14,41 @@ and can be installed via ``pip`` or ``easy_install``:
 
   pip install sprockets.{{ cookiecutter.project_name }}
 
-Documentation
--------------
-https://sprockets{{ cookiecutter.project_name.replace('.', '') }}.readthedocs.org
-
 Requirements
 ------------
-@TODO: Put full requirements list here, should match requirements.text
+@TODO: Put full requirements list here, should match requirements.txt
 -  `sprockets <https://github.com/sprockets/sprockets>`_
 
-Example
--------
-This examples demonstrates how to use sprockets.{{ cookiecutter.project_name }} by ...
-.. code:: python
+API Documentation
+-----------------
+.. toctree::
+   :maxdepth: 2
 
-    from sprockets import {{ cookiecutter.project_name }}
-
-    # Example here
-
-More complex examples and documentation are available at https://sprockets.{{ cookiecutter.project_name }}.readthedocs.org
+   api
+   examples
 
 Version History
 ---------------
-Available at https://sprockets{{ cookiecutter.project_name.replace('.', '') }}.readthedocs.org/en/latest/history.html
+See :doc:`history`
+
+Issues
+------
+Please report any issues to the Github project at `https://github.com/sprockets/sprockets.{{ cookiecutter.project_name }}/issues <https://github.com/sprockets/sprockets.{{ cookiecutter.project_name }}/issues>`_
+
+Source
+------
+sprockets.{{ cookiecutter.project_name }} source is available on Github at `https://github.com/sprockets/sprockets.{{ cookiecutter.project_name }} <https://github.com/sprockets/sprockets.{{ cookiecutter.project_name }}>`_
+
+License
+-------
+sprockets.{{ cookiecutter.project_name }} is released under the `3-Clause BSD license <https://github.com/sprockets/sprockets.{{ cookiecutter.project_name }}/blob/master/LICENSE>`_.
+
+Indices and tables
+------------------
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
 
 .. |Version| image:: https://badge.fury.io/py/sprockets.{{ cookiecutter.project_name }}.svg?
    :target: http://badge.fury.io/py/sprockets.{{ cookiecutter.project_name }}
