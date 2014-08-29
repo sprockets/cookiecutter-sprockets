@@ -16,7 +16,7 @@ and can be installed via ``pip`` or ``easy_install``:
 
 Requirements
 ------------
-@TODO: Put full requirements list here, should match requirements.text
+@TODO: Put full requirements list here, should match requirements.txt
 -  `sprockets <https://github.com/sprockets/sprockets>`_
 
 API Documentation

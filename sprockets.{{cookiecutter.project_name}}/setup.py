@@ -3,8 +3,6 @@ import sys
 
 import setuptools
 
-from sprockets.{{cookiecutter.project_name}} import __version__
-
 
 def read_requirements_file(req_name):
     requirements = []
@@ -31,7 +29,7 @@ if sys.version_info < (3, 0):
 
 setuptools.setup(
     name='sprockets.{{cookiecutter.project_name}}',
-    version=__version__,
+    version='0.0.0',
     description='{{cookiecutter.description}}',
     long_description=codecs.open('README.rst', encoding='utf-8').read(),
     url='https://github.com/{{cookiecutter.git_org}}/sprockets.{{cookiecutter.project_name}}.git',
