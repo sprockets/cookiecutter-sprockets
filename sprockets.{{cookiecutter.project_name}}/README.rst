@@ -6,7 +6,7 @@ sprockets.{{ cookiecutter.project_name }}
 
 Installation
 ------------
-sprockets.{{ cookiecutter.project_name }} is available on the
+``sprockets.{{ cookiecutter.project_name }}`` is available on the
 `Python Package Index <https://pypi.python.org/pypi/sprockets.{{ cookiecutter.project_name }}>`_
 and can be installed via ``pip`` or ``easy_install``:
 
@@ -20,19 +20,16 @@ https://sprockets{{ cookiecutter.project_name.replace('.', '') }}.readthedocs.or
 
 Requirements
 ------------
-@TODO: Put full requirements list here, should match requirements.text
 -  `sprockets <https://github.com/sprockets/sprockets>`_
 
 Example
 -------
-This examples demonstrates how to use sprockets.{{ cookiecutter.project_name }} by ...
+This examples demonstrates how to use ``sprockets.{{ cookiecutter.project_name }}`` by ...
 .. code:: python
 
     from sprockets import {{ cookiecutter.project_name }}
 
     # Example here
-
-More complex examples and documentation are available at https://sprockets.{{ cookiecutter.project_name }}.readthedocs.org
 
 Version History
 ---------------

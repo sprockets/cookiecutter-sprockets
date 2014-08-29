@@ -37,11 +37,11 @@ Please report any issues to the Github project at `https://github.com/sprockets/
 
 Source
 ------
-sprockets.{{ cookiecutter.project_name }} source is available on Github at `https://github.com/sprockets/sprockets.{{ cookiecutter.project_name }} <https://github.com/sprockets/sprockets.{{ cookiecutter.project_name }}>`_
+``sprockets.{{ cookiecutter.project_name }}`` source is available on Github at `https://github.com/sprockets/sprockets.{{ cookiecutter.project_name }} <https://github.com/sprockets/sprockets.{{ cookiecutter.project_name }}>`_
 
 License
 -------
-sprockets.{{ cookiecutter.project_name }} is released under the `3-Clause BSD license <https://github.com/sprockets/sprockets.{{ cookiecutter.project_name }}/blob/master/LICENSE>`_.
+``sprockets.{{ cookiecutter.project_name }}`` is released under the `3-Clause BSD license <https://github.com/sprockets/sprockets.{{ cookiecutter.project_name }}/blob/master/LICENSE>`_.
 
 Indices and tables
 ------------------
