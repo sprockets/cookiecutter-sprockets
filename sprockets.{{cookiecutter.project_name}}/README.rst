@@ -45,7 +45,6 @@ Available at https://sprockets{{ cookiecutter.project_name.replace('.', '') }}.r
    :target: https://travis-ci.org/sprockets/sprockets.{{ cookiecutter.project_name }}
 
 .. |Coverage| image:: https://img.shields.io/coveralls/sprockets/sprockets.{{ cookiecutter.project_name }}.svg?
-.. |Coverage| image:: https://coveralls.io/repos/sprockets/sprockets.{{ cookiecutter.project_name }}.svg?
    :target: https://coveralls.io/r/sprockets/sprockets.{{ cookiecutter.project_name }}
 
 .. |Downloads| image:: https://pypip.in/d/sprockets.{{ cookiecutter.project_name }}/badge.svg?
