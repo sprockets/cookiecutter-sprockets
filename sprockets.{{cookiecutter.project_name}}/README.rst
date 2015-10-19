@@ -25,6 +25,7 @@ Requirements
 Example
 -------
 This examples demonstrates how to use ``sprockets.{{ cookiecutter.project_name }}`` by ...
+
 .. code:: python
 
     from sprockets import {{ cookiecutter.project_name }}
@@ -35,17 +36,17 @@ Version History
 ---------------
 Available at https://sprockets{{ cookiecutter.project_name.replace('.', '') }}.readthedocs.org/en/latest/history.html
 
-.. |Version| image:: https://badge.fury.io/py/sprockets.{{ cookiecutter.project_name }}.svg?
-   :target: http://badge.fury.io/py/sprockets.{{ cookiecutter.project_name }}
+.. |Version| image:: https://img.shields.io/pypi/v/sprockets.{{ cookiecutter.project_name }}.svg?
+  :target: http://badge.fury.io/py/sprockets.{{ cookiecutter.project_name }}
 
-.. |Status| image:: https://travis-ci.org/sprockets/sprockets.{{ cookiecutter.project_name }}.svg?branch=master
-   :target: https://travis-ci.org/sprockets/sprockets.{{ cookiecutter.project_name }}
+.. |Status| image:: https://img.shields.io/travis/sprockets/sprockets.{{ cookiecutter.project_name }}.svg?
+  :target: https://travis-ci.org/sprockets/sprockets.{{ cookiecutter.project_name }}
 
-.. |Coverage| image:: https://img.shields.io/coveralls/sprockets/sprockets.{{ cookiecutter.project_name }}.svg?
-   :target: https://coveralls.io/r/sprockets/sprockets.{{ cookiecutter.project_name }}
+.. |Coverage| image:: https://img.shields.io/codecov/c/github/sprockets/sprockets.{{ cookiecutter.project_name }}.svg?
+  :target: https://codecov.io/github/sprockets/sprockets.{{ cookiecutter.project_name }}?branch=master
 
-.. |Downloads| image:: https://pypip.in/d/sprockets.{{ cookiecutter.project_name }}/badge.svg?
-   :target: https://pypi.python.org/pypi/sprockets.{{ cookiecutter.project_name }}
+.. |Downloads| image:: https://img.shields.io/pypi/dm/sprockets.{{ cookiecutter.project_name }}.svg?
+  :target: https://pypi.python.org/pypi/sprockets.{{ cookiecutter.project_name }}
 
-.. |License| image:: https://pypip.in/license/sprockets.{{ cookiecutter.project_name }}/badge.svg?
-   :target: https://sprockets{{ cookiecutter.project_name.replace('.', '') }}.readthedocs.org
+.. |License| image:: https://img.shields.io/pypi/l/sprockets.{{ cookiecutter.project_name }}.svg?
+  :target: https://sprockets{{ cookiecutter.project_name.replace('.', '') }}.readthedocs.org

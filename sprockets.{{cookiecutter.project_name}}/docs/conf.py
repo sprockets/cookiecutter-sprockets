@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-import sphinx_rtd_theme
-
 from sprockets.{{cookiecutter.project_name}} import version_info, __version__
 
 needs_sphinx = '1.0'
@@ -19,11 +16,7 @@ release = __version__
 if len(version_info) > 3:
     release += '-{0}'.format(str(v) for v in version_info[3:])
 exclude_patterns = []
-pygments_style = 'sphinx'
-html_theme = 'sphinx_rtd_theme'
-html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 intersphinx_mapping = {
-    'python': ('https://docs.python.org/', None),
-    'requests': ('https://requests.readthedocs.org/en/latest/', None),
+    'python': ('https://docs.python.org/3/', None),
     'sprockets': ('https://sprockets.readthedocs.org/en/latest/', None),
 }
