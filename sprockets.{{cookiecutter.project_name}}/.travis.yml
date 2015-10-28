@@ -2,24 +2,22 @@
 ---
 language: python
 python:
-  - 2.6
   - 2.7
   - pypy
-  - 3.2
   - 3.3
   - 3.4
+  - 3.5
 install:
-  - if [[ $TRAVIS_PYTHON_VERSION == '2.6' ]]; then pip install unittest2; fi
   - pip install -r test-requirements.txt
   - pip install -e .
 script: nosetests
 after_success:
-  - coveralls
+  - codecov
 deploy:
   distributions: sdist bdist_wheel
   provider: pypi
   on:
-    python: 2.7
+    python: 3.4
     tags: true
     all_branches: true
   user: sprockets
